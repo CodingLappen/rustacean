@@ -96,7 +96,7 @@ impl LangManager {
 	    "pony".into(),
 	    "ponyc".into(),
 	    "ponylang".into()
-        ], Arc::new(Box::new(Prolog)));
+        ], Arc::new(Box::new(Pony)));
 
         mngr
     }
